@@ -1,0 +1,10 @@
+{
+  "rewrites": [
+    { "source": "/api/:path*", "destination": "/api/app" }
+  ],
+  "functions": {
+    "api/app.js": {
+      "maxDuration": 10
+    }
+  }
+}

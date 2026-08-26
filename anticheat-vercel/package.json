@@ -1,0 +1,11 @@
+{
+  "name": "anticheat-dashboard-vercel",
+  "version": "1.0.0",
+  "description": "API + dashboard (Vercel Functions + Supabase) para receber e exibir logs de scan anti-cheat",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.4",
+    "cookie": "^0.7.1",
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
